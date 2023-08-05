@@ -1,0 +1,69 @@
+.filtersBoxContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.filterItem{
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    
+
+}
+
+.filtersBoxTitle{
+    font-size: 25px;
+    font-weight: 450;
+}
+
+.filterTitle{
+    font-size: 15px;
+    font-weight: 200;
+    margin: 0px 5px 0px 0px ;
+    min-width:40%;
+}
+
+.filterChoise{
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 120px;
+}
+
+.filtersBox{    
+    background-color: antiquewhite;
+    position:sticky;
+    top: 70px;
+    margin-bottom: 12px ;
+    padding: 10px;
+    box-shadow: 0px 1px 2px #494930;
+    width: 220px;
+    height: max-content; /* allios pianei olo to ipsos tis selidas*/
+    border-radius: 3px;
+}
+
+.filterCheckbox{
+    margin:0px 3px 3px 0px;
+}
+
+.filterPrice{
+    border-radius: 4px;
+    border: 1px solid rgb(202, 194, 194);
+    margin-bottom: 4px;
+    width: 114px;
+    height: 30px
+}
+
+.filtersBox>button{
+    width: 100%;
+    padding: 10px;
+    margin: 4px 0px;
+    border:0;
+    background-color: #f0c284;
+    font-weight: 200;
+    font-size: 13px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}

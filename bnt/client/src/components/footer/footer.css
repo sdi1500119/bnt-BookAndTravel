@@ -1,0 +1,12 @@
+.footer{
+    min-height: 20px;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 20px;
+    
+    display: flex;    
+    justify-content: center;
+
+    font-size: 10pt;
+
+}

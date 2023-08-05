@@ -1,0 +1,29 @@
+.homeContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+    min-width: 850px;
+    
+}
+
+.homeTitleContainer{
+    width: 100%;
+    max-width: 1024px;
+}
+
+.homeTitle{
+    margin-top: 10px;
+    
+    font-size: 15pt;
+    font-weight: 500;
+}
+
+
+.titleIcon{
+    padding: 0px 5px;
+    color: #493720;
+    flex: 200;
+}

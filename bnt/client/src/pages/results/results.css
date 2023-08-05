@@ -1,0 +1,18 @@
+.resultsWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 1024px;
+
+    
+}
+
+
+.resultsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    /**/
+    min-width: 900px;    
+}

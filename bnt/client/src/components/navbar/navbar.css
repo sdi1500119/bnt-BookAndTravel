@@ -1,0 +1,170 @@
+.navbar{
+    height: 60px;
+    width: 100%;
+    min-width: 850px;
+    background-color: antiquewhite;
+    display: flex;    
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.logoContainer{
+    cursor: pointer;
+    padding: 4px;
+    font-size: 29px;
+    font-weight: 200;
+    color: #775f3f;
+    text-shadow: 1px 1px 4px #494930;
+}
+
+.miniLogo{
+    position: absolute;
+    top: 35px;    
+    font-size: 9px;
+}
+
+.navbarContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.userButtonContainer{
+    padding: 10px;
+}
+
+.userButton{
+    padding: 10px;
+    margin-left: 4px;
+    border:0;
+    background-color: #f0c284;
+    font-weight: 200;
+    font-size: 13px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+/* Search */
+.searchContainer{
+    height: 40px;
+    width: 612px;
+    margin: 8px;
+    display: flex;    
+    justify-content: space-between;
+    border: 2px solid #f0c284;
+    border-radius: 33px;
+    background-color: white;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.Select{
+    z-index: 9999999;
+}
+
+.searchDestinationBox{
+    
+    width: 200px;
+    z-index: 9999999;
+    border: none;
+}
+
+
+.searchItem{    
+    margin: auto;
+    padding: 1px 1px;
+    display: flex;
+}
+
+.searchText{
+    cursor: pointer;
+}
+
+.searchBarIcon{
+    margin: auto 6px;
+    color: #493720;
+}
+
+.searchLocationInput{
+    border: none;
+    height: 100%;
+}
+
+.searchButton{
+    
+    width: 55px;
+    border: none;
+    border-radius: 0%;
+    background-color: #f0c284;
+    cursor: pointer;
+}
+
+/* Destination */
+::placeholder { 
+    color: black;
+    opacity: 100%;
+    font-size: 12px;
+}
+
+
+/* Date range */
+.dateBox{
+    position: absolute;
+    top: 60px;
+    
+    z-index: 200;
+    box-shadow: 0px 1px 2px #494930;
+}
+
+/* Guests */
+.guestsBox{
+    width: 150px;
+
+    position: absolute;
+    top: 60px;
+    
+    z-index: 201;
+    box-shadow: 0px 1px 2px #494930;
+
+    padding: 14px;
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+}
+
+.guestsBoxItem{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.guestsCounterButton{   
+
+    padding: 3px;
+    margin: 4px;
+    border:0;
+    background-color: #f0c284;
+    font-weight: 400;
+    font-size: 10px;
+    height: 24px;
+    width: 24px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.guestsCounterNumber{    
+    margin: 4px;
+    background-color: white;
+    font-weight: 300;
+    font-size: 14px;
+    height: 23px;
+    width: 23px;
+    border-radius: 0px;
+    border: 1px solid black;
+    text-align: center;
+}
+
